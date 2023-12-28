@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family:"space" ;
+    src: url(Fonte/SPACE.ttf) format('truetype');
+}
+
+
+body{
+    
+    background-color: black;
+    height: 100vh;
+    background-image: url(img/espaco.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+span.a {
+    height: 500px;
+    width: 400px;
+    background-image: url('img/astronauta.png'); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.527);
+    min-height: 150px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 40px;
+    color: white;
+    font-family: 'space';
+}
+header > p{
+    padding-bottom: 50px;
+}
+
+header > nav{
+    text-align: left;
+    padding-bottom: 10px;
+   
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    transition-duration: .5s;
+    border-radius: 10px;
+}
+
+a:hover{
+    background-color: rgba(16, 170, 16, 0.377);
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.527);
+   max-width: 1200px;
+    margin: auto;
+    margin-top: 246px;
+}
+
+article{
+    color: white;
+   
+   
+}
+
+article > h2{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 6px;
+   
+
+}
+
+article > p{
+    padding-right: 3px;
+    text-align: justify;
+    text-indent: 10px;
+    text-shadow: 1px 1px 9px black;
+    font-size: 16px;
+    
+}
+
+img{
+    
+    padding-left: 30px;
+}
+
+footer{
+    font-weight: bolder;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
