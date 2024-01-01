@@ -28,10 +28,11 @@ span.a {
     top: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
+    filter: drop-shadow(1px 1px 8px black);
 }
 
 header{
-    background-color: rgba(0, 0, 0, 0.527);
+    background-color: rgba(17, 4, 4, 0.527));
     min-height: 150px;
     text-align: center;
     margin: 0px;
@@ -95,6 +96,7 @@ article > p{
 img{
     
     padding-left: 30px;
+    filter: drop-shadow(1px 1px 8px black);
 }
 
 footer{
